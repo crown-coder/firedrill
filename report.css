@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Assets/truck.png");
+  background-size: cover;
+}
+.container {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+  background: #fff;
+}
+.container h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.container p {
+  color: rgb(40, 40, 40);
+  font-size: 14px;
+}
+.head-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head-section button {
+  padding: 5px;
+  background: transparent;
+  border: 1px solid crimson;
+}
+.head-section button a {
+  color: crimson;
+}
+.form-container {
+  display: flex;
+  margin-top: 20px;
+}
+.form-container .fireman-image img {
+  height: 450px;
+}
+fieldset {
+  border: none;
+}
+label {
+  font-size: 12px;
+  color: rgb(122, 122, 122);
+}
+input,
+select {
+  width: 250px;
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid rgb(122, 122, 122);
+}
+input[type="submit"] {
+  background: crimson;
+  color: #fff;
+  border: 1px solid crimson;
+  cursor: pointer;
+}
